@@ -30,7 +30,7 @@ public class MainActivity extends ListActivity implements OnClickListener{
 	ListView listview_book2;
 	 private String URL ="http://test.repang.net/books/2.json";
 	// "http://ec2-54-250-200-33.ap-northeast-1.compute.amazonaws.com/cafe_info/?CAFE_NAME=";
-	
+	//しけしいかいしぉ
 			 String keyword;
 	JSONObject jsonobject;
 	JSONArray jsonarray;
