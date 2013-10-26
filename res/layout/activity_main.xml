@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_above="@+id/textView3"
             android:layout_alignLeft="@+id/button2"
-            android:text="TextView" />
+            android:text="Title" />
 
         <TextView
             android:id="@+id/textView3"
@@ -74,8 +74,8 @@
 
         <TextView
             android:id="@+id/textView5"
-            android:layout_width="100dp"
-            android:layout_height="120dp"
+            android:layout_width="10dp"
+            android:layout_height="30dp"
             android:layout_alignParentLeft="true"
             android:layout_alignRight="@+id/textView2"
             android:layout_below="@+id/textView3"
@@ -91,12 +91,49 @@
             android:text="booking" />
 
         <ImageView
+            android:id="@+id/imageView1"
             android:layout_width="70dp"
             android:layout_height="80dp"
+            android:layout_above="@+id/button1"
             android:layout_alignRight="@+id/button1"
-            android:layout_below="@+id/textView5"
+            android:layout_marginBottom="24dp"
             android:background="#696969"
             android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView5"
+            android:layout_alignLeft="@+id/textView2"
+            android:text="author" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_above="@+id/imageView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="Content" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_alignTop="@+id/imageView1"
+            android:text="id" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_alignRight="@+id/textView6"
+            android:layout_marginBottom="18dp"
+            android:text="password" />
+
     </RelativeLayout>
     
 </RelativeLayout>
