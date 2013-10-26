@@ -13,7 +13,7 @@
         android:layout_height="fill_parent"
         android:layout_below="@+id/btn_booklist" />
 
-     <Button
+   <Button
          android:id="@+id/btn_booklist"
          android:layout_width="150dp"
          android:layout_height="50dp"
@@ -28,5 +28,13 @@
          android:layout_above="@+id/android:list"
          android:layout_alignLeft="@+id/android:list"
          android:text="MyInfo" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:text="here is booklist" />
   
 </RelativeLayout>
