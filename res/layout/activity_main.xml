@@ -123,6 +123,7 @@
             android:layout_height="20dp"
             android:layout_alignLeft="@+id/textView9"
             android:layout_alignTop="@+id/imageView1"
+            android:visibillity="invisible"
             android:text="id" />
 
         <TextView
