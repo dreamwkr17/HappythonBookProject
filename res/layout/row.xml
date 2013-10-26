@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/bookimage"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="12.5dp"
+        android:src="@drawable/cafe_pic2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bookimage"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/bookimage"
+        android:text="BookName"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/bean2_dt"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/bean1_dt"
+        android:layout_marginLeft="7dp"
+        android:layout_toRightOf="@+id/bean1_dt"
+        android:src="@drawable/bean" />
+
+    <ImageView
+        android:id="@+id/bean3_dt"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/bean2_dt"
+        android:layout_marginLeft="7dp"
+        android:layout_toRightOf="@+id/bean2_dt"
+        android:src="@drawable/bean" />
+
+    <ImageView
+        android:id="@+id/bean4_dt"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/bean3_dt"
+        android:layout_marginLeft="7dp"
+        android:layout_toRightOf="@+id/bean3_dt"
+        android:src="@drawable/bean" />
+
+    <ImageView
+        android:id="@+id/bean5_dt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bean4_dt"
+        android:layout_marginLeft="7dp"
+        android:layout_toRightOf="@+id/bean4_dt"
+        android:src="@drawable/dot" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="9dp"
+        android:text="copylight"
+        android:textSize="11dp" />
+
+    <ImageView
+        android:id="@+id/bean1_dt"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/bean" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/checkinnum"
+        android:layout_below="@+id/textView2"
+        android:text="booking" />
+
+    <TextView
+        android:id="@+id/checkinnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginRight="34dp"
+        android:text="distance"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:id="@+id/age1"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/checkinnum"
+        android:src="@drawable/bean" />
+
+    <ImageView
+        android:id="@+id/age3"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/age2"
+        android:layout_toRightOf="@+id/age2"
+        android:src="@drawable/bean" />
+
+    <ImageView
+        android:id="@+id/age2"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignLeft="@+id/checkinnum"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/bean" />
+
+</RelativeLayout>
